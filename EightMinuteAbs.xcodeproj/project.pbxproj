@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		02256916294D9A96991D63B8 /* Pods_EightMinuteAbsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A74211686A4145B56FACB2A3 /* Pods_EightMinuteAbsTests.framework */; };
 		1CC41C5DF23564EA44199DD9 /* Pods_EightMinuteAbsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51F7D67C05475D9F72861DEB /* Pods_EightMinuteAbsUITests.framework */; };
+		4F10605B21068C4900E33A27 /* Cheering.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4F10605A21068C4900E33A27 /* Cheering.wav */; };
+		4F10605F21068C8200E33A27 /* AirHorn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4F10605D21068C4E00E33A27 /* AirHorn.wav */; };
 		4FF1DD2F2105757400C34E0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF1DD2E2105757400C34E0A /* AppDelegate.swift */; };
 		4FF1DD312105757400C34E0A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF1DD302105757400C34E0A /* ViewController.swift */; };
 		4FF1DD342105757500C34E0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FF1DD322105757500C34E0A /* Main.storyboard */; };
@@ -18,7 +20,6 @@
 		4FF1DD4F2105757700C34E0A /* EightMinuteAbsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF1DD4E2105757700C34E0A /* EightMinuteAbsUITests.swift */; };
 		4FF1DD5D21058CB500C34E0A /* Sound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF1DD5C21058CB500C34E0A /* Sound.swift */; };
 		4FF1DD6021058D1B00C34E0A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FF1DD5F21058D1B00C34E0A /* AVFoundation.framework */; };
-		4FF1DD6221058EF000C34E0A /* AirHorn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4FF1DD6121058EF000C34E0A /* AirHorn.wav */; };
 		4FF1DD642105923C00C34E0A /* AgrippaExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF1DD632105923C00C34E0A /* AgrippaExtensions.swift */; };
 		AC875698DAA8A669B4260632 /* Pods_EightMinuteAbs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BB53319B54F9337EC31155F /* Pods_EightMinuteAbs.framework */; };
 /* End PBXBuildFile section */
@@ -43,6 +44,8 @@
 /* Begin PBXFileReference section */
 		30CCC27AE167941532556817 /* Pods-EightMinuteAbsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EightMinuteAbsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EightMinuteAbsUITests/Pods-EightMinuteAbsUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		35FBB7F3192010EC74AE5B46 /* Pods-EightMinuteAbsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EightMinuteAbsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EightMinuteAbsUITests/Pods-EightMinuteAbsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4F10605A21068C4900E33A27 /* Cheering.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Cheering.wav; sourceTree = "<group>"; };
+		4F10605D21068C4E00E33A27 /* AirHorn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = AirHorn.wav; sourceTree = "<group>"; };
 		4FF1DD2B2105757400C34E0A /* EightMinuteAbs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EightMinuteAbs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FF1DD2E2105757400C34E0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4FF1DD302105757400C34E0A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,7 +61,6 @@
 		4FF1DD502105757700C34E0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4FF1DD5C21058CB500C34E0A /* Sound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sound.swift; sourceTree = "<group>"; };
 		4FF1DD5F21058D1B00C34E0A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		4FF1DD6121058EF000C34E0A /* AirHorn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = AirHorn.wav; path = ../../../quick/AirHorn.wav; sourceTree = "<group>"; };
 		4FF1DD632105923C00C34E0A /* AgrippaExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgrippaExtensions.swift; sourceTree = "<group>"; };
 		51F7D67C05475D9F72861DEB /* Pods_EightMinuteAbsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EightMinuteAbsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		76DEFBBCC73D34963EA6C9B3 /* Pods-EightMinuteAbsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EightMinuteAbsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EightMinuteAbsTests/Pods-EightMinuteAbsTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -111,6 +113,15 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		4F10605C21068C4E00E33A27 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				4F10605A21068C4900E33A27 /* Cheering.wav */,
+				4F10605D21068C4E00E33A27 /* AirHorn.wav */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
 		4FF1DD222105757400C34E0A = {
 			isa = PBXGroup;
 			children = (
@@ -139,7 +150,7 @@
 				4FF1DD2E2105757400C34E0A /* AppDelegate.swift */,
 				4FF1DD302105757400C34E0A /* ViewController.swift */,
 				4FF1DD322105757500C34E0A /* Main.storyboard */,
-				4FF1DD6121058EF000C34E0A /* AirHorn.wav */,
+				4F10605C21068C4E00E33A27 /* Sounds */,
 				4FF1DD632105923C00C34E0A /* AgrippaExtensions.swift */,
 				4FF1DD5C21058CB500C34E0A /* Sound.swift */,
 				4FF1DD352105757600C34E0A /* Assets.xcassets */,
@@ -291,9 +302,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F10605B21068C4900E33A27 /* Cheering.wav in Resources */,
 				4FF1DD392105757700C34E0A /* LaunchScreen.storyboard in Resources */,
 				4FF1DD362105757600C34E0A /* Assets.xcassets in Resources */,
-				4FF1DD6221058EF000C34E0A /* AirHorn.wav in Resources */,
+				4F10605F21068C8200E33A27 /* AirHorn.wav in Resources */,
 				4FF1DD342105757500C34E0A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

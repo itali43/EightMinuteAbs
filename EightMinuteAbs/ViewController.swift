@@ -50,12 +50,18 @@ class ViewController: UIViewController {
     var isTimerRunning = false
     var resumeTapped = false
 
-    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        //  always keeping the screen showing (without the screen sleeping from no touching)
+    }
+    //TO DO--====
+    // ADD background mode
+    //and/or
     func runTimer() {
         isTimerRunning = true
-        pauseBTN.isEnabled = true
-        skipExerciseBTN.isEnabled = true
-
+        UIApplication.shared.isIdleTimerDisabled = true // doesn't go to sleep
+        pauseBTN.isEnabled = true // can press pause
+        skipExerciseBTN.isEnabled = true // can press skip
         timer = Timer.scheduledTimer(timeInterval: 1, target: self,   selector: (#selector(updateTimer)), userInfo: nil, repeats: true)
     }
 
@@ -142,6 +148,7 @@ class ViewController: UIViewController {
             runTimer()
             self.startBTN.isEnabled = false
 
+
         }
 
     }
@@ -157,6 +164,8 @@ class ViewController: UIViewController {
 
         roundNumberLabel.text = "\(roundCounter)"
         isTimerRunning = false
+        UIApplication.shared.isIdleTimerDisabled = false
+
         updateTimer()
         pauseBTN.isEnabled = false
         skipExerciseBTN.isEnabled = false
@@ -199,6 +208,8 @@ class ViewController: UIViewController {
         progressRing.innerRingColor = .white
         pauseBTN.isEnabled = false
         skipExerciseBTN.isEnabled = false
+        UIApplication.shared.isIdleTimerDisabled = false
+
 
         self.startBTN.isEnabled = true
         
