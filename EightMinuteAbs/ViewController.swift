@@ -68,7 +68,7 @@ class ViewController: UIViewController {
     @objc func updateTimer() {
         if seconds < 1 {
             timer.invalidate()
-            roundNumberLabel.text = "0"
+            roundNumberLabel.text = "1 of 8"
             roundCounter = 0
             
             //Send alert to indicate "time's up!"
@@ -87,7 +87,7 @@ class ViewController: UIViewController {
             buzz()
 
             roundCounter += 1
-            roundNumberLabel.text = "\(roundCounter)"
+            roundNumberLabel.text = "\(roundCounter) of 8"
             randomExerciseUpdate()
 
         }
@@ -162,7 +162,7 @@ class ViewController: UIViewController {
         secondsPast = CGFloat(abs(481 - seconds))
         progressRing.value = secondsPast
 
-        roundNumberLabel.text = "\(roundCounter)"
+        roundNumberLabel.text = "\(roundCounter) of 8"
         isTimerRunning = false
         UIApplication.shared.isIdleTimerDisabled = false
 

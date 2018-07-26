@@ -101,6 +101,7 @@
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M5Y-SM-axG">
                                 <rect key="frame" x="20" y="562" width="85" height="85"/>
+                                <color key="backgroundColor" red="0.40000000000000002" green="1" blue="0.40000000000000002" alpha="0.10478397651006711" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="85" id="C0S-Wu-Wnb"/>
                                     <constraint firstAttribute="height" constant="85" id="f1k-R7-DlO"/>
@@ -126,6 +127,7 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sqz-nq-faI">
                                 <rect key="frame" x="270" y="562" width="85" height="85"/>
+                                <color key="backgroundColor" red="0.40000000000000002" green="1" blue="0.40000000000000002" alpha="0.10478397651006711" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="85" id="RlU-ic-pfg"/>
                                     <constraint firstAttribute="height" constant="85" id="kyM-ZV-Mfs"/>
@@ -149,7 +151,7 @@
                                     <action selector="resetAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kHF-bD-yaV"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4kn-Gf-9wJ">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1 of 8" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4kn-Gf-9wJ">
                                 <rect key="frame" x="16" y="300" width="343" height="25"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="25" id="Gcc-BT-eMZ"/>
@@ -182,6 +184,7 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BbX-Q1-zbZ">
                                 <rect key="frame" x="145" y="562" width="85" height="85"/>
+                                <color key="backgroundColor" red="0.40000000000000002" green="1" blue="0.40000000000000002" alpha="0.10478397651006711" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="85" id="dvc-tq-fEA"/>
                                     <constraint firstAttribute="height" constant="85" id="ynO-gu-qZS"/>
@@ -225,6 +228,7 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="sqz-nq-faI" secondAttribute="trailing" constant="20" id="Sj3-Kx-zwM"/>
                             <constraint firstItem="ALH-xV-Msg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="UmI-4O-RfJ"/>
                             <constraint firstItem="4kn-Gf-9wJ" firstAttribute="top" secondItem="cez-s7-r4B" secondAttribute="bottom" constant="4" id="Wi5-AG-brU"/>
+                            <constraint firstItem="ALH-xV-Msg" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="13" id="cPs-Rl-jRP"/>
                             <constraint firstItem="ie8-kZ-ja3" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-100.5" id="fPA-Cf-U3r"/>
                             <constraint firstItem="BbX-Q1-zbZ" firstAttribute="top" relation="greaterThanOrEqual" secondItem="jky-Dg-3Sc" secondAttribute="bottom" constant="5" id="gTA-jl-2ak"/>
                             <constraint firstItem="cez-s7-r4B" firstAttribute="top" secondItem="ie8-kZ-ja3" secondAttribute="bottom" constant="8" id="iF6-xI-nax"/>
