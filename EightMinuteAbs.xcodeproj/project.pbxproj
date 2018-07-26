@@ -11,7 +11,6 @@
 		1CC41C5DF23564EA44199DD9 /* Pods_EightMinuteAbsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51F7D67C05475D9F72861DEB /* Pods_EightMinuteAbsUITests.framework */; };
 		4F10605B21068C4900E33A27 /* Cheering.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4F10605A21068C4900E33A27 /* Cheering.wav */; };
 		4F10605F21068C8200E33A27 /* AirHorn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4F10605D21068C4E00E33A27 /* AirHorn.wav */; };
-		4F5B64122109B6B8001F6F92 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 4F5B64112109B6B8001F6F92 /* README.md */; };
 		4FF1DD2F2105757400C34E0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF1DD2E2105757400C34E0A /* AppDelegate.swift */; };
 		4FF1DD312105757400C34E0A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF1DD302105757400C34E0A /* ViewController.swift */; };
 		4FF1DD342105757500C34E0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FF1DD322105757500C34E0A /* Main.storyboard */; };
@@ -47,7 +46,7 @@
 		35FBB7F3192010EC74AE5B46 /* Pods-EightMinuteAbsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EightMinuteAbsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EightMinuteAbsUITests/Pods-EightMinuteAbsUITests.release.xcconfig"; sourceTree = "<group>"; };
 		4F10605A21068C4900E33A27 /* Cheering.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Cheering.wav; sourceTree = "<group>"; };
 		4F10605D21068C4E00E33A27 /* AirHorn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = AirHorn.wav; sourceTree = "<group>"; };
-		4F5B64112109B6B8001F6F92 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		4F5B64132109B717001F6F92 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4FF1DD2B2105757400C34E0A /* EightMinuteAbs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EightMinuteAbs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FF1DD2E2105757400C34E0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4FF1DD302105757400C34E0A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -129,6 +128,7 @@
 			children = (
 				4FF1DD2D2105757400C34E0A /* EightMinuteAbs */,
 				4FF1DD422105757700C34E0A /* EightMinuteAbsTests */,
+				4F5B64132109B717001F6F92 /* README.md */,
 				4FF1DD4D2105757700C34E0A /* EightMinuteAbsUITests */,
 				4FF1DD2C2105757400C34E0A /* Products */,
 				4FF1DD5E21058D1B00C34E0A /* Frameworks */,
@@ -151,7 +151,6 @@
 			children = (
 				4FF1DD2E2105757400C34E0A /* AppDelegate.swift */,
 				4FF1DD302105757400C34E0A /* ViewController.swift */,
-				4F5B64112109B6B8001F6F92 /* README.md */,
 				4FF1DD322105757500C34E0A /* Main.storyboard */,
 				4F10605C21068C4E00E33A27 /* Sounds */,
 				4FF1DD632105923C00C34E0A /* AgrippaExtensions.swift */,
@@ -305,7 +304,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F5B64122109B6B8001F6F92 /* README.md in Resources */,
 				4F10605B21068C4900E33A27 /* Cheering.wav in Resources */,
 				4FF1DD392105757700C34E0A /* LaunchScreen.storyboard in Resources */,
 				4FF1DD362105757600C34E0A /* Assets.xcassets in Resources */,
