@@ -9,4 +9,5 @@ Eight Minute Abs enables you to do 8 Core Strength Exercises in 8 minutes (1 min
 - Concise Explainers for various core exercises
 - (Possible Direction) AR Rewards upon satisfactory completion
 - ~~Accompanying Robot that does exercise for you~~    
+
 Any Requests send them my way via the issues tab here on Github
